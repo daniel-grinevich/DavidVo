@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<section class="hero">
+        <h1>{{page.title}}</h1>
+    </section>  
+
+    <section class="page">
+        <figure>
+            {% if page.feature_image %}
+                <img src="{{ page.feature_image.url }}">
+            {% endif %}
+            <figcaption>
+                <h3>{{page.description | safe }}</h3>
+            </figcaption>
+        </figure>
+    </section>
+{% endblock %}

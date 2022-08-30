@@ -1,0 +1,27 @@
+QQ
+
+PROJECT
+* title
+* description 
+# feature image 
+* url 
+* assets for projects
+* credits / footer 
+* rank -> there should be some ordering
+* is it visible? 
+
+ASSETS 
+* img
+* caption 
+* rank 
+
+CREDITS 
+* role
+* name
+* rank 
+* url
+
+PAGE
+* title
+* feature img
+* description
